@@ -22,6 +22,9 @@ class AppAuthenticate
         if (is_null($token))
             $token = $request->get('token');
 
+        if (empty($token))
+            abort(403, "Please provide a token");
+
         $user = User::query()->where('token', $token)->first();
 
         if (!$user)

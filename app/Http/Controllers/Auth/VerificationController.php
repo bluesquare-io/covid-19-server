@@ -41,6 +41,7 @@ class VerificationController extends Controller
         $user = $request->user();
 
         $user->markers()->delete();
+
         $user->delete();
 
         return ['success' => true];

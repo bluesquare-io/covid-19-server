@@ -89,7 +89,7 @@ class MapController extends Controller
                 $id = 'people-' . md5(uniqid());
                 $entity = User::find($markable_id);
                 $type = 'circle';
-                $color = 'rgba(0,0,0,0.2)';
+                $color = 'rgba(255,0,0,0.5)';
                 break;
         }
 
