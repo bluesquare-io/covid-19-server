@@ -1,0 +1,31 @@
+{
+    "name": "advice-app-server/BatchImport",
+    "description": "A Laravel Nova tool providing batch import",
+    "keywords": [
+        "laravel",
+        "nova",
+        "excel",
+        "import"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdviceAppServer\\BatchImport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdviceAppServer\\BatchImport\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
