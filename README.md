@@ -30,20 +30,20 @@ Hospitals and pharmacies data for France were retrieved from official datasets:
 To get a local copy up and running follow these simple steps.
 
 ### Installation
- 
+
 1. Clone the repo   
 ```
 git clone https://github.com/bluesquare-io/covid-19-server.git
 ```
-2. Install NPM packages   
+2. Install [Nova](https://nova.laravel.com/)
+3. Install NPM packages   
 ```
 yarn install 
 ```
-3. Install composer dependencies   
+4. Install composer dependencies   
 ```
 composer install
 ```
-4. Install [Nova](https://nova.laravel.com/)
 
 ### Running locally 
  
